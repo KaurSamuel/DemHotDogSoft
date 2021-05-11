@@ -15,12 +15,54 @@
             <TextView
                     android:text="Vali vorstitüüp"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" android:id="@+id/textView3" android:textSize="36sp"
+                    android:layout_height="65dp" android:id="@+id/textView3" android:textSize="36sp"
                     android:fontFamily="monospace" android:textAlignment="center"/>
             <LinearLayout
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="242dp">
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" android:layout_weight="1">
+                    <TextView
+                            android:text="Chillivorst"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" android:id="@+id/textView4" android:layout_weight="1"
+                            android:textSize="18sp" android:textAlignment="center"/>
+                    <ImageButton
+                            android:src="@drawable/Chilli"
+                            android:layout_width="234dp"
+                            android:layout_height="187dp" android:id="@+id/imageButton" android:layout_weight="1"/>
+                </LinearLayout>
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" android:layout_weight="1">
+                    <TextView
+                            android:text="Juustuvorst"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" android:id="@+id/textView5" android:layout_weight="1"
+                            android:textSize="18sp" android:textAlignment="center"/>
+                    <ImageButton
+                            android:src="@drawable/juustu"
+                            android:layout_width="wrap_content"
+                            android:layout_height="188dp" android:id="@+id/imageButton3" android:layout_weight="1"/>
+                </LinearLayout>
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" android:layout_weight="1">
+                    <TextView
+                            android:text="Frankfurter"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" android:id="@+id/textView6" android:layout_weight="1"
+                            android:textSize="18sp" android:textAlignment="center"/>
+                    <ImageButton
+                            android:src="@drawable/viener"
+                            android:layout_width="wrap_content"
+                            android:layout_height="187dp" android:id="@+id/imageButton4" android:layout_weight="1"/>
+                </LinearLayout>
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

@@ -29,6 +29,11 @@
         </e>
         <e p="Resources" t="Include">
           <e p="AboutResources.txt" t="Include" />
+          <e p="drawable" t="Include">
+            <e p="Chilli.jpg" t="Include" />
+            <e p="juustu.jpg" t="Include" />
+            <e p="viener.jpg" t="Include" />
+          </e>
           <e p="layout" t="Include">
             <e p="activity_main.axml" t="Include" />
           </e>
